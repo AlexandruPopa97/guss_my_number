@@ -111,6 +111,10 @@ class _ContentState extends State<Content> {
                           //Does this when button is Guess
                           numberGuessed = int.parse(txtController.text);
                           if (numberGuessed == numberToBeGuessed) {
+                            setState(() {
+                              hint =
+                                  'You tried $numberGuessed\nYou guessed right';
+                            });
                             return showDialog<String>(
                                 context: context,
                                 builder: (BuildContext context) {
