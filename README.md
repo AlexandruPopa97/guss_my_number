@@ -1,16 +1,5 @@
-# guss_my_number
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app looks like this:
+![alt text](https://i.gyazo.com/11a2d3c3876466270bd08706ef1d8cb1.png)
+![alt text](https://i.gyazo.com/c189ba12544f3cf8bc38f25e472342ff.png)
+![alt text](https://i.gyazo.com/956e55a7facc0c614d3deddef2732a1b.png)
+![alt text](https://i.gyazo.com/0ee1718e5877363ae2db4a0175f436b5.png)
