@@ -96,9 +96,7 @@ class _ContentState extends State<Content> {
                     child: TextField(
                       enabled: textEnable,
                       keyboardType: TextInputType.number,
-                      inputFormatters: <TextInputFormatter>[
-                        FilteringTextInputFormatter.digitsOnly
-                      ],
+                      inputFormatters: <TextInputFormatter>[FilteringTextInputFormatter.digitsOnly],
                       controller: txtController,
                     ),
                   ),
@@ -112,8 +110,7 @@ class _ContentState extends State<Content> {
                           numberGuessed = int.parse(txtController.text);
                           if (numberGuessed == numberToBeGuessed) {
                             setState(() {
-                              hint =
-                                  'You tried $numberGuessed\nYou guessed right';
+                              hint = 'You tried $numberGuessed\nYou guessed right';
                             });
                             return showDialog<String>(
                                 context: context,
@@ -127,8 +124,7 @@ class _ContentState extends State<Content> {
                                         onPressed: () {
                                           setState(() {
                                             hint = '';
-                                            numberToBeGuessed =
-                                                random.nextInt(100) + 1;
+                                            numberToBeGuessed = random.nextInt(100) + 1;
                                             print(numberToBeGuessed);
                                             txtController.clear();
                                           });
